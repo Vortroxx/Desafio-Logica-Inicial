@@ -15,7 +15,7 @@ function calcularNivel(vitorias, derrotas) {
     } else if (vitorias <= 100) {
         nivel = "Lendário";
     } else {
-        nivel = "Imortal";
+        
     }
 
     return `O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`;
